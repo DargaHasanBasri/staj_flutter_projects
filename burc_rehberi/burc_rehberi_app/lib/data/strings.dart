@@ -35,8 +35,7 @@ class Strings {
   ];
 
   static const List<String> BURC_GENEL_OZELLIKLERI = [
-    "\tGenel Özellikler\n\n"
-        "\tYönetici yıldızınız: Mars\n\n"
+    "\tYönetici yıldızınız: Mars\n\n"
         "\tGrubunuz: Ateş\n\n"
         "\tUğurlu gününüz: Salı\n\n"
         "\tUğurlu sayınız: 8\n\n"
@@ -50,8 +49,7 @@ class Strings {
         "\tAnlaşamadığınız burçlar: Yengeç, Terazi, Oğlak\n\n"
         "\tBaşarılı olacağınız meslekler: Politikacılık, yöneticilik, işletmecilik, mühendislik, ressamlık, müzisyenlik, oyunculuk\n\n"
         "\tBurcunuzdan olan ünlüler: Fatih Sultan Mehmet,Sakıp Sabancı, Descartes, Charlie Chaplin, Vincent Van Gogh, Zeki Alasya\n\n",
-    "\tGenel Özellikler\n\n"
-        "\tYönetici yıldızınız: Venüs\n\n"
+    "\tYönetici yıldızınız: Venüs\n\n"
         "\tGrubunuz: Toprak\n\n"
         "\tUğurlu gününüz: Cuma\n\n"
         "\tUğurlu sayınız: 6\n\n"
@@ -65,8 +63,7 @@ class Strings {
         "\tAnlaşamadığınız burçlar: Kova, Aslan, Akrep\n\n"
         "\tBaşarılı olacağınız meslekler: Askerlik, doktorluk, mimarlık, mühendislik, bankacılık\n\n"
         "\tBurcunuzdan olan ünlüler:  Nükhet Duru, Öztürk Serengil, Salvadore Dali, Karl Marks, Lenin, Sigmund Freud, Shakespare\n\n",
-    "\tGenel Özellikler\n\n"
-        "\tYönetici yıldızınız: Merkür\n\n"
+    "\tYönetici yıldızınız: Merkür\n\n"
         "\tGrubunuz: Hava\n\n"
         "\tUğurlu gününüz: Çarşamba\n\n"
         "\tUğurlu sayınız: 5\n\n"
@@ -80,8 +77,7 @@ class Strings {
         "\tAnlaşamadığınız burçlar: Başak, Yay\n\n"
         "\tBaşarılı olacağınız meslekler: Yazarlık, bankacılık, avukatlık, gazetecilik, edebiyatçı\n\n"
         "\tBurcunuzdan olan ünlüler: Adile Naşit, Bülent Ecevit, John F. Kennedy, John Wayne, Schumann\n\n",
-    "\tGenel Özellikler\n\n"
-        "\tYönetici yıldızınız: Ay\n\n"
+    "\tYönetici yıldızınız: Ay\n\n"
         "\tGrubunuz: Su\n\n"
         "\tUğurlu gününüz: Pazartesi\n\n"
         "\tUğurlu sayınız: 2\n\n"
@@ -95,8 +91,7 @@ class Strings {
         "\tAnlaşamadığınız burçlar: Koç, Aslan, Kova\n\n"
         "\tBaşarılı olacağınız meslekler: Eczacılık, turizm, pilotluk, kimyagerlik\n\n"
         "\tBurcunuzdan olan ünlüler: Sezen Aksu, Türkan Şoray, Louis Armstrong, Tom Cruise, Giorgio Armani, Lady Diana\n\n",
-    "\tGenel Özellikler\n\n"
-        "\tYönetici yıldızınız: Güneş\n\n"
+    "\tYönetici yıldızınız: Güneş\n\n"
         "\tGrubunuz: Ateş\n\n"
         "\tUğurlu gününüz: Pazartesi\n\n"
         "\tUğurlu sayınız: 1\n\n"
@@ -110,8 +105,7 @@ class Strings {
         "\tAnlaşamadığınız burçlar: Boğa, Akrep, Kova\n\n"
         "\tBaşarılı olacağınız meslekler: Askerlik, doktorluk, yöneticilik\n\n"
         "\tBurcunuzdan olan ünlüler: Uğur Mumcu, Gönül Yazar, Neil Armstrong, Benito Mussolini, Fidel Castro, Henry Ford, Madonna\n\n",
-    "\tGenel Özellikler\n\n"
-        "\tYönetici yıldızınız: Merkür\n\n"
+    "\tYönetici yıldızınız: Merkür\n\n"
         "\tGrubunuz: Toprak\n\n"
         "\tUğurlu gününüz: Çarşamba\n\n"
         "\tUğurlu sayınız: 5\n\n"
@@ -125,8 +119,7 @@ class Strings {
         "\tAnlaşamadığınız burçlar: İkizler, Yay, Balık\n\n"
         "\tBaşarılı olacağınız meslekler: Edebiyat alanı, yazarlık, eczacılık, muhasebecilik , araştırmacılık\n\n"
         "\tBurcunuzdan olan ünlüler: Büyük İskender, Uğur Dündar, Sophia Loren, Michael Jackson, Vitali Hakko, Richard Gere, Sean Connery\n\n",
-    "\tGenel Özellikler\n\n"
-        "\tYönetici yıldızınız: Venüs\n\n"
+    "\tYönetici yıldızınız: Venüs\n\n"
         "\tGrubunuz: Hava\n\n"
         "\tUğurlu gününüz: Cuma\n\n"
         "\tUğurlu sayınız: 6\n\n"
@@ -140,8 +133,7 @@ class Strings {
         "\tAnlaşamadığınız burçlar: Koç, Yengeç, Oğlak\n\n"
         "\tBaşarılı olacağınız meslekler: Müzisyenlik, ressamlık, mimarlık, bankacılık, politikacılık, hukukçuluk, heykeltraşlık\n\n"
         "\tBurcunuzdan olan ünlüler: Cem Özer, Hülya Avşar, Cervantes, Oscar Wilde, Pavorotti, Turgut Özal, Pavorotti, Jimmy Carter\n\n",
-    "\t Genel Özellikler\n\n"
-        "\t Yönetici yıldızınız: Mars-Plüton\n\n"
+    "\t Yönetici yıldızınız: Mars-Plüton\n\n"
         "\t Grubunuz: Su\n\n"
         "\t Uğurlu gününüz: Salı\n\n"
         "\t Uğurlu sayınız: 9\n\n"
@@ -155,8 +147,7 @@ class Strings {
         "\t Anlaşamadığınız burçlar: Boğa, Aslan, Kova\n\n"
         "\t Başarılı olacağınız meslekler: Yöneticilik, mühendislik, komutanlık, yazarlık, müzisyenlik, gazetecilik\n\n"
         "\t Burcunuzdan olan ünlüler: Süleyman Demirel, Maradona, Pablo Picasso, Prenses Charles, Indra Gandhi, Alfred Nobel\n\n",
-    "\tGenel Özellikler\n\n"
-        "\t Yönetici yıldızınız: Jüpiter\n\n"
+    "\t Yönetici yıldızınız: Jüpiter\n\n"
         "\t Grubunuz: Ateş\n\n"
         "\t Uğurlu gününüz: Perşembe\n\n"
         "\t Uğurlu sayınız: 3\n\n"
@@ -170,8 +161,7 @@ class Strings {
         "\t Anlaşamadığınız burçlar: İkizler, Başak, Balık\n\n"
         "\t Başarılı olacağınız meslekler: Politikacılık, hukukçu, araştırmacılık, bankacılık, öğretmenlik\n\n"
         "\tBurcunuzdan olan ünlüler:  Mehmet Ali Birand, Zeki Müren, Walt Disney, Winston Churchill, Ludwig van Beethoven, Mark Twain\n\n",
-    "\tGenel Özellikler\n\n"
-        "\t Yönetici yıldızınız: Satürn\n\n"
+    "\t Yönetici yıldızınız: Satürn\n\n"
         "\t Grubunuz: Toprak\n\n"
         "\t Uğurlu gününüz: Cumartesi\n\n"
         "\t  Uğurlu sayınız: 8\n\n"
@@ -185,8 +175,7 @@ class Strings {
         "\t Anlaşamadığınız burçlar: Koç, Yengeç, Terazi\n\n"
         "\t Başarılı olacağınız meslekler: Güzellik uzmanlığı, mimarlık, madencilik, doktorluk, kuyumculuk\n\n"
         "\t Burcunuzdan olan ünlüler:  Filiz Akın, Semra Özal, Benjamin Franklin, Elvis Presley, Isaac Newton\n\n",
-    "\tGenel Özellikler\n\n"
-        "\tYönetici yıldızınız: Uranüs\n\n"
+    "\tYönetici yıldızınız: Uranüs\n\n"
         "\t Grubunuz: Hava\n\n"
         "\tUğurlu gününüz: Pazar\n\n"
         "\t Uğurlu sayınız: 4\n\n"
@@ -200,8 +189,7 @@ class Strings {
         "\t Anlaşamadığınız burçlar: Boğa, Aslan, Akrep\n\n"
         "\t  Başarılı olacağınız meslekler: Yazarlık, editörlük, gazetecilik, sanatçılık, organizatörlük, muhasebecilik\n\n"
         "\t  Burcunuzdan olan ünlüler: Ajda Pekkan, Mozart, Ronald Reagan, Schubert, Abraham Lincoln, Kim Novak\n\n",
-    "\tGenel Özellikler\n\n"
-        "\t Yönetici yıldızınız: Neptün\n\n"
+    "\t Yönetici yıldızınız: Neptün\n\n"
         "\t Grubunuz: Su\n\n"
         "\t Uğurlu gününüz: Perşembe\n\n"
         "\t Uğurlu sayınız: 7\n\n"

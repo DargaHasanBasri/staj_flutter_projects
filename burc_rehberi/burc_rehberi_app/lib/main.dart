@@ -1,4 +1,5 @@
 import 'package:burc_rehberi_app/burc_listesi.dart';
+import 'package:burc_rehberi_app/route_generator.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.pink),
-      home: BurcListesi(),
+      onGenerateRoute: RouteGenerator.routeGenerator,
     );
   }
 }
