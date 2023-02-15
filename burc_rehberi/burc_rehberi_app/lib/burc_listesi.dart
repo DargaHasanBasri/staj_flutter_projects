@@ -13,7 +13,7 @@ class BurcListesi extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Burç Listesi'),
+        title: const Text('Burç Listesi'),
       ),
       body: Center(
         child: ListView.builder(

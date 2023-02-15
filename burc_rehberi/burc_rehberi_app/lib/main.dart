@@ -1,9 +1,8 @@
-import 'package:burc_rehberi_app/burc_listesi.dart';
 import 'package:burc_rehberi_app/route_generator.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {

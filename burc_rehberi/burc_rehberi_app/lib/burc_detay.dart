@@ -47,7 +47,7 @@ class _BurcDetayState extends State<BurcDetay> {
             child: SingleChildScrollView(
               child: Text(
                 widget.secilenBurc.burcDetayi,
-                style: Theme.of(context).textTheme.subtitle1,
+                style: Theme.of(context).textTheme.headline6,
               ),
             ),
           ),

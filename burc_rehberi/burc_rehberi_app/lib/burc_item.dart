@@ -1,4 +1,3 @@
-import 'package:burc_rehberi_app/burc_detay.dart';
 import 'package:burc_rehberi_app/model/burc.dart';
 import 'package:flutter/material.dart';
 
