@@ -1,5 +1,6 @@
 import 'package:burc_rehberi_app/data/strings.dart';
 import 'package:burc_rehberi_app/model/burc.dart';
+import 'package:burc_rehberi_app/model/burc_item.dart';
 import 'package:flutter/material.dart';
 
 class BurcListesi extends StatelessWidget {
@@ -16,7 +17,12 @@ class BurcListesi extends StatelessWidget {
         title: Text('Burç Listesi'),
       ),
       body: Center(
-        child: Text('Burc Listesi Buraya Gelecek'),
+        child: ListView.builder(
+          itemBuilder: (context, index) {
+            return BurcItem(listelenenBurc: tumBurclar[index]);
+          },
+          itemCount: tumBurclar.length,
+        ),
       ),
     );
   }
@@ -32,12 +38,12 @@ class BurcListesi extends StatelessWidget {
       // burc kucuk resimlerinin isimlerini elde ediyoruz
       // koc1.png için Koc ---- koc ----- koc1.png
       var burcKucukResim =
-          Strings.BURC_ADLARI[i].toLowerCase() + '${i + 1}.png';
+          '${Strings.BURC_ADLARI[i].toLowerCase()}${i + 1}.png';
 
       // burc buyuk resimlerinin isimlerini elde ediyoruz
       //koc_buyuk1.png
       var burcBuyukResim =
-          Strings.BURC_ADLARI[i].toLowerCase() + '_buyuk${i + 1}.png';
+          '${Strings.BURC_ADLARI[i].toLowerCase()}_buyuk${i + 1}.png';
 
       Burc eklenecekBurc =
           Burc(burcAdi, burcTarih, burcDetay, burcKucukResim, burcBuyukResim);
