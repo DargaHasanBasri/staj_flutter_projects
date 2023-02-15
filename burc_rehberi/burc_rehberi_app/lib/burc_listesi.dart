@@ -1,6 +1,6 @@
 import 'package:burc_rehberi_app/data/strings.dart';
 import 'package:burc_rehberi_app/model/burc.dart';
-import 'package:burc_rehberi_app/model/burc_item.dart';
+import 'package:burc_rehberi_app/burc_item.dart';
 import 'package:flutter/material.dart';
 
 class BurcListesi extends StatelessWidget {
