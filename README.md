@@ -1,2 +1,2 @@
-# staj_flutter_project
+# __isTechSoft Staj Flutter Project__
 isTechSoft gönüllü staj eğitimi - flutter projeleri
