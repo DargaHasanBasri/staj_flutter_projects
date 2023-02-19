@@ -11,4 +11,6 @@ class Sabitler {
     fontWeight: FontWeight.w900,
     color: mainColor,
   );
+
+  static BorderRadius borderRadius = BorderRadius.circular(24);
 }
