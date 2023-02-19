@@ -13,4 +13,16 @@ class Sabitler {
   );
 
   static BorderRadius borderRadius = BorderRadius.circular(24);
+
+  static final TextStyle ortGosterBodyStyle = GoogleFonts.quicksand(
+    fontSize: 16,
+    fontWeight: FontWeight.w600,
+    color: mainColor,
+  );
+
+  static final TextStyle ortalamaStyle = GoogleFonts.quicksand(
+    fontSize: 55,
+    fontWeight: FontWeight.w800,
+    color: mainColor,
+  );
 }
