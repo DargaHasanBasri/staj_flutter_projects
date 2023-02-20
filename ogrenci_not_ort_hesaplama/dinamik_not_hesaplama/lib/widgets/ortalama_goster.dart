@@ -6,7 +6,7 @@ class OrtalamaGoster extends StatelessWidget {
   final int dersSayisi;
 
   const OrtalamaGoster(
-      {super.key, required this.ortalama, required this.dersSayisi});
+      {super.key, required this.dersSayisi, required this.ortalama});
 
   @override
   Widget build(BuildContext context) {

@@ -1,5 +1,6 @@
 import 'package:dinamik_not_hesaplama/constants/app_constants.dart';
 import 'package:dinamik_not_hesaplama/helper/data_helper.dart';
+import 'package:dinamik_not_hesaplama/model/ders.dart';
 import 'package:dinamik_not_hesaplama/widgets/ortalama_goster.dart';
 import 'package:flutter/material.dart';
 
@@ -14,6 +15,7 @@ class _OrtalamaHesaplaPageState extends State<OrtalamaHesaplaPage> {
   GlobalKey<FormState> formKey = GlobalKey<FormState>();
   double secilenHarfDegeri = 4;
   double secilenKrediDegeri = 1;
+  String girilenDersAdi = '';
 
   @override
   Widget build(BuildContext context) {
@@ -37,9 +39,11 @@ class _OrtalamaHesaplaPageState extends State<OrtalamaHesaplaPage> {
                 flex: 2,
                 child: _buildForm(),
               ),
-              const Expanded(
+              Expanded(
                 flex: 1,
-                child: OrtalamaGoster(ortalama: 4.21313, dersSayisi: 2),
+                child: OrtalamaGoster(
+                    dersSayisi: DataHelper.tumEklenenDersler.length,
+                    ortalama: DataHelper.ortalamaHesapla()),
               ),
             ],
           ),
@@ -82,7 +86,17 @@ class _OrtalamaHesaplaPageState extends State<OrtalamaHesaplaPage> {
                 ),
               ),
               IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  if (formKey.currentState!.validate()) {
+                    formKey.currentState!.save();
+                    var eklenecekDers = Ders(
+                        ad: girilenDersAdi,
+                        harfDegeri: secilenHarfDegeri,
+                        krediDegeri: secilenKrediDegeri);
+                    DataHelper.dersEkle(eklenecekDers);
+                    setState(() {});
+                  }
+                },
                 icon: const Icon(Icons.arrow_forward_ios_sharp),
                 color: Sabitler.mainColor,
                 iconSize: 30,
@@ -99,6 +113,18 @@ class _OrtalamaHesaplaPageState extends State<OrtalamaHesaplaPage> {
 
   TextFormField _buildTextFormField() {
     return TextFormField(
+      onSaved: (deger) {
+        setState(() {
+          girilenDersAdi = deger!;
+        });
+      },
+      validator: (s) {
+        if (s!.length <= 0) {
+          return 'Ders adı giriniz!';
+        } else {
+          return null;
+        }
+      },
       decoration: InputDecoration(
         hintText: 'Matematik',
         border: OutlineInputBorder(
