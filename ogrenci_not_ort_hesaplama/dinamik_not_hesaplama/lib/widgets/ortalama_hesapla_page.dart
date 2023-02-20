@@ -1,6 +1,7 @@
 import 'package:dinamik_not_hesaplama/constants/app_constants.dart';
 import 'package:dinamik_not_hesaplama/helper/data_helper.dart';
 import 'package:dinamik_not_hesaplama/model/ders.dart';
+import 'package:dinamik_not_hesaplama/widgets/ders_listesi.dart';
 import 'package:dinamik_not_hesaplama/widgets/ortalama_goster.dart';
 import 'package:flutter/material.dart';
 
@@ -20,6 +21,7 @@ class _OrtalamaHesaplaPageState extends State<OrtalamaHesaplaPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -48,10 +50,7 @@ class _OrtalamaHesaplaPageState extends State<OrtalamaHesaplaPage> {
             ],
           ),
           Expanded(
-            child: Container(
-              color: Colors.blue,
-              child: const Text('Liste buraya gelecek'),
-            ),
+            child: DersListesi(),
           ),
         ],
       ),
@@ -126,7 +125,7 @@ class _OrtalamaHesaplaPageState extends State<OrtalamaHesaplaPage> {
         }
       },
       decoration: InputDecoration(
-        hintText: 'Matematik',
+        hintText: 'Ders Giriniz',
         border: OutlineInputBorder(
           borderRadius: Sabitler.borderRadius,
           borderSide: BorderSide.none,
