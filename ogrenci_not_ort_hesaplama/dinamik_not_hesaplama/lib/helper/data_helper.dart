@@ -37,7 +37,7 @@ class DataHelper {
     switch (harf) {
       case 'AA':
         return 4;
-      case 'BA':
+      case 'AB':
         return 3.5;
       case 'BB':
         return 3.0;
